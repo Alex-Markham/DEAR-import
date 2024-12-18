@@ -8,10 +8,10 @@ import argparse
 import numpy as np
 import matplotlib.pyplot as plt
 
-from bgm import *
-from sagan import *
-from config import *
-from causal_model import *
+from .bgm import *
+from .sagan import *
+from .config import *
+from .causal_model import *
 import os
 import random
 import utils
